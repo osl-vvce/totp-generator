@@ -1,0 +1,48 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #EAF0F1;
+}
+
+.container{
+  display: grid;
+ 
+}
+.container h1#register {
+  text-align: center;
+  font-weight: 200;
+  top: 35%;
+  left: 41%;
+  width: 250px;
+  height: 3.7rem;
+  margin: 0 auto;
+  position: absolute;
+}
+.container form button#register{
+  border-radius: 5px;
+  border: 1px solid transparent;
+  width: 12rem;
+  height: 3.7rem;
+  padding: 10px;
+  background-color:#2ecc72;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  color: #EEEEEE;
+  font-size: 1.9rem;
+  font-weight: 100;
+  margin: -70px 0 0 -170px;
+  transition: all 0.40s ease-in 0s;
+}
+.container form button#register:hover{
+  background-color: #26ae60;
+}
+
+
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+}
+

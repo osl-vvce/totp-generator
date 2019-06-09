@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>OSL | validate</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <form action="/validate" method="POST">
+      <input type="number" name="token" id="token">
+      <button type="submit">verify</button>
+    </form>
+    <div class="msg">
+      {{#if msg}}
+      <p>Verifyed Successfully</p>
+      {{else}}
+      <p>invalid Token</p>
+      {{/if}}
+    </div>
+
+  </div>
+</body>
+
+</html>
