@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Totp</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="logo">
+      <img src="img/osc-logo.png" alt="osl logo">
+    </div>
+    <div class="totp">
+      <div class="main">
+        <h4 class="totp-text">Your Token is : </h4>
+        <div class="totp-code">
+          <div id="qrcode"></div>
+          <!-- <b> <b> 1 1 1 1 </b></p> -->
+        </div>
+      </div>
+      <div class="totp-exprie">
+        <!-- <div class="text"> <p>OSL (Name) </p></div> -->
+
+      </div>
+    </div>
+  </div>
+  <button class="add-button">Add to Home Screen</button>
+  <h1 id="demo"></h1>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/qrcode.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

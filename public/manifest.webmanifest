@@ -1,0 +1,15 @@
+{
+  "short_name": "Totp",
+  "name": "TOTP Authenticator",
+  "description" : "Totp authentication | osl",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/",
+  "background_color": "#47535E",
+  "theme_color": "#fafafa",
+  "display": "fullscreen",
+  "orientation": "portrait-primary"
+}

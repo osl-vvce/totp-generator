@@ -1,2 +1,4 @@
 /server/node_modules
 /server/totp-demo.js
+/server/pnpm-lock.yaml
+/server/config/env.json
